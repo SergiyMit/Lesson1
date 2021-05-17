@@ -7,7 +7,7 @@ namespace Lecture1
     {
         static void Main(string[] args)
         {
-            Assembly asm = Assembly.LoadFrom("Lecture1Library.dll");
+            Assembly asm = Assembly.LoadFrom(@"D:\Мітряєв\Nix\Lecture1\Lecture1\Lecture1Library.dll");
             Console.WriteLine(asm.FullName);
 
             Type[] types = asm.GetTypes();
